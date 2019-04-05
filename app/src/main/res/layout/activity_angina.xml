@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angina"
+    android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="310sp"
+            android:background="@drawable/angin_img"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANGINA"
+        android:textSize="30sp"
+        android:layout_marginLeft="140sp"
+        android:layout_marginRight="55sp"
+        android:textColor="#518AFF"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"/>
+
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are many options for angina treatment, including lifestyle changes, medications, angioplasty and stenting, or coronary bypass surgery. The goals of treatment are to reduce the frequency and severity of your symptoms and to lower your risk of a heart attack and death.
+However, if you have unstable angina or angina pain that's different from what you usually have, such as occurring when you're at rest, you need immediate treatment in a hospital."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+
+
+
+            />
+
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="60sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="45sp"
+        android:text="Talk to your doctor"
+        android:textColor="#518AFF"
+
+
+        />
+
+
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="60sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="45sp"
+        android:text="Get additional tests if your doctor suggests it."
+        android:textColor="#518AFF"
+        android:textSize="10sp"
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Disease and Condition</string>
+
+    <string-array name="site">
+
+        <item>Retrosternal</item>
+        <item>Retrosternal</item>
+        <item>Interscapular</item>
+        <item>Left-Sided</item>
+        <item>Epigastric</item>
+    </string-array>
+
+    <string-array name="onset">
+
+        <item>Intensity over 1-2 minutes</item>
+        <item>Rapid over a few minutes</item>
+        <item>Very Sudden</item>
+        <item>Suddenly Aggravate</item>
+        <item>Over 1-2 minutes</item>
+    </string-array>
+
+    <string-array name="character">
+
+        <item>Heavy</item>
+        <item>Heavy</item>
+        <item>Ripping</item>
+        <item>Stabbing</item>
+        <item>Gripping</item>
+    </string-array>
+
+    <string-array name="radiation">
+
+        <item>Epigastrium</item>
+        <item>Sometimes Epigastrium</item>
+        <item>Between Shoulder</item>
+        <item>Left Shoulder</item>
+        <item>Sometimes to Arms</item>
+    </string-array>
+
+
+    <string-array name="associate">
+
+        <item>Breathlessness</item>
+        <item>Sweating</item>
+        <item>Syncope</item>
+        <item>Fever</item>
+        <item>Heartburn</item>
+    </string-array>
+
+    <string-array name="timing">
+
+        <item>Intermittent</item>
+        <item>Acute Presentation</item>
+        <item>Prolonged Duration</item>
+        <item>Variable Duration</item>
+        <item>Often At Night-time</item>
+    </string-array>
+
+
+    <string-array name="exacerbating">
+
+        <item>Trigered by Emotion</item>
+        <item>Stress and exercise rare trigers</item>
+        <item>Spontaneous</item>
+        <item>Sitting up</item>
+        <item>Lying Flat</item>
+
+    </string-array>
+
+    <string-array name="severity">
+
+        <item>Mild to Moderate</item>
+        <item>Usually Severe</item>
+        <item>Very Severe</item>
+        <item>Can be Severe</item>
+        <item>Mimic Myocardial Infarction</item>
+    </string-array>
+
+
+    <string-array name="cause">
+
+        <item>Aortic Stenosis</item>
+        <item>Plaque Rupture</item>
+        <item>Thoracic Aortic Dissection Rupture</item>
+        <item>Pericarditis</item>
+        <item>Hiatus Hernia</item>
+    </string-array>
+</resources>
+
+

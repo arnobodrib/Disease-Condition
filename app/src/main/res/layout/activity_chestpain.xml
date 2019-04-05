@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Site"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+        <Spinner
+            android:entries="@array/site"
+            android:id="@+id/sitedrop"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        >
+
+
+        <TextView
+
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Onset"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:entries="@array/onset"
+            android:id="@+id/onsetdrop"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="2dp"
+            android:drawSelectorOnTop="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Character"
+            android:textColor="#2979FF"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/characterdrop"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="2dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/character" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Radiation"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:entries="@array/radiation"
+            android:id="@+id/radiationdrop"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="7dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Associated Features"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:id="@+id/associatedrop"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="30sp"
+            android:layout_marginBottom="7dp"
+            android:entries="@array/associate" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Timing"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:id="@+id/timingdrop"
+            android:entries="@array/timing"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="7dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Exacerbating"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:id="@+id/exacerbatingdrop"
+            android:entries="@array/exacerbating"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="7dp"
+            android:drawSelectorOnTop="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Severity"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:id="@+id/severitydrop"
+            android:entries="@array/severity"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="7dp"
+            android:drawSelectorOnTop="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="Cause"
+            android:textColor="#2979FF"
+            android:layout_width="120dp"
+            android:layout_height="35dp" />
+
+        <Spinner
+            android:id="@+id/causedrop"
+            android:entries="@array/cause"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="7dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/continuebtn"
+            android:layout_width="235sp"
+            android:layout_height="36sp"
+            android:background="@drawable/btn_2"
+            android:text="CONTINUE"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
